@@ -413,7 +413,7 @@
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" />
   <project path="external/strace" name="android_external_strace" groups="pdk-cw-fs" remote="cm" />
   <project path="external/tcpdump" name="android_external_tcpdump" groups="pdk,pdk-cw-fs" remote="cm" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="cm" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="zf" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="cm" />
   <project path="external/unrar" name="android_external_unrar" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" />
@@ -572,7 +572,7 @@
   <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" remote="cm" revision="master" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="cm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="cm" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="cm" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="zf" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
   <project path="system/extras/su" name="android_system_extras_su" remote="cm" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" />
