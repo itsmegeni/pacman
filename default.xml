@@ -311,7 +311,7 @@
   <!-- CyanogenMod -->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
   <project path="art" name="art" groups="pdk" remote="zf" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="zf" />
+  <project path="bionic" name="bionic" groups="pdk" remote="zf" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cm" />
   <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" remote="cm" />
   <project path="development" name="android_development" groups="pdk-cw-fs" remote="cm" />
@@ -494,7 +494,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8994" remote="cm" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="cm" />
-  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="zf" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="zf" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="cm-12.1-caf" remote="cm" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="cm" />
   <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="cm" />
