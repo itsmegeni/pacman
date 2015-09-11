@@ -23,8 +23,24 @@
 
 ######Support Our Sites, We have created many different ways for you to follow us. Please visit us and support our work and efforts.
 
-**How to use Gerrit [Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/HowToUseGerrit.md)**
 
-**Getting Started: Preparing and building [Linux Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/PrepareForBuildLinux.md) or [Mac OS Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/PrepareForBuildMac.md)**
 
-**Device isn't supported? Not a problem! [Read] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/BecomeAMaintainer.md)**
+Getting Started
+---------------
+To initialize your local repository using the PAC-man trees, use a command like this:
+
+    repo init -u git://github.com/Zenfone2PAC-ROM/pacman.git -b pac-5.1
+  
+    
+    Then to build:
+
+    ./build-pac.sh <device_code_name>
+
+Example for Nexus 5:
+
+    ./build-pac.sh hammerhead
+
+For a list of supported commands run the script on it's own:
+
+    ./build-pac.sh
+
